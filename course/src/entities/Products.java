@@ -4,10 +4,7 @@
  */
 package entities;
 
-/**
- *
- * @author gabri
- */
+
 public class Products {
         public String name;
         public double price;
@@ -18,6 +15,9 @@ public class Products {
         }
         
         public void addProducts(int quantity){
-            vasco da gama 
+            this.quantity +=  quantity;
 }
+        public void removeProducts(int quantity) {
+            this.quantity -= quantity;
+        }
 }
