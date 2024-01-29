@@ -18,9 +18,9 @@ public class Program {
 			rect.width = sc.nextDouble();
 			rect.height = sc.nextDouble();
 			
-			System.out.printf("AREA =  ", rect.area());
-			System.out.printf("PERIMETER =  ", rect.perimeter());
-			System.out.printf("DIAGONAL =  ", rect.diagonal());
+			System.out.printf("AREA = %.2f%n ", rect.area());
+			System.out.printf("PERIMETER = %.2f%n ", rect.perimeter());
+			System.out.printf("DIAGONAL =  %.2f%n ", rect.diagonal());
 			
 			sc.close();
 		}
